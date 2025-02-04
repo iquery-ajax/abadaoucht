@@ -227,5 +227,27 @@ function laodOfferFeedBuildDress(){
      
 }
 
+function openLocker(){
+    $(".lockerXslm").removeClass("d-none");
+    clickToshowLocker();
+    
+    clickToshowLocker();
+    
+     // اختيار العناصر باستخدام ID و class
+    var stepsDiv = document.getElementById('steps');
+    var topImg = document.querySelector('.top-img.lazyloader');
+    var botImg = document.querySelector('.bottom-img.lazyloader');
+
+    // تعيين display إلى none
+    if (stepsDiv) {
+        stepsDiv.style.display = 'none';
+    }
+    if (topImg) {
+        topImg.style.display = 'none';
+    }
+    if (botImg) {
+        botImg.style.display = 'none';
+    }
+}
 
 
